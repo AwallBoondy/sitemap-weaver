@@ -51,7 +51,7 @@ const testimonials = [
     role: "Creative Director"
   },
   {
-    text: "Their strategic approach to branding helped us achieve remarkable market growth.",
+    quote: "Their strategic approach to branding helped us achieve remarkable market growth.",
     author: "Thomas Weber",
     company: "Tech Innovations GmbH",
     role: "CEO"
