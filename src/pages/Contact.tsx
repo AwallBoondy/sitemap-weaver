@@ -3,7 +3,7 @@ import { ContactInfo } from "@/components/contact/ContactInfo";
 import { ContactForm } from "@/components/contact/ContactForm";
 import { LocationsSection } from "@/components/contact/LocationsSection";
 import { FeaturesList } from "@/components/contact/FeaturesList";
-import { CTASection } from "@/components/about/CTASection";
+import { CTASection } from "@/components/contact/CTASection";
 
 const Contact = () => {
   return (
