@@ -5,7 +5,6 @@ import { Button } from "@/components/ui/button";
 
 const navigation = [
   { name: "Home", href: "/" },
-  { name: "About Us", href: "/about" },
   { name: "Services", href: "/services" },
   { name: "Portfolio", href: "/portfolio" },
   { name: "Blog", href: "/blog" },
@@ -23,7 +22,7 @@ export function Navbar() {
           <span className="text-xl font-bold">Brand</span>
         </Link>
         
-        <div className="hidden md:flex md:gap-x-8">
+        <div className="hidden md:flex md:items-center md:space-x-8">
           {navigation.map((item) => (
             <Link
               key={item.name}
@@ -35,6 +34,9 @@ export function Navbar() {
               {item.name}
             </Link>
           ))}
+          <Button className="ml-4" size="sm">
+            Get Started
+          </Button>
         </div>
 
         <div className="flex md:hidden">
@@ -67,6 +69,9 @@ export function Navbar() {
                 {item.name}
               </Link>
             ))}
+            <Button className="w-full mt-4" size="sm">
+              Get Started
+            </Button>
           </div>
         </div>
       )}
