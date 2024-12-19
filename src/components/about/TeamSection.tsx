@@ -32,8 +32,8 @@ export function TeamSection() {
                 <p className="text-muted-foreground text-sm">{member.bio}</p>
               </CardContent>
             </Card>
-          );
-        })}
+          ))}
+        </div>
       </div>
     </section>
   );
